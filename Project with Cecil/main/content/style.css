@@ -30,12 +30,12 @@ header nav ul{
 }
 .slider{
     width: 100%; /*edditing width from 100vw to 100% height 105vh to 100%*/
-    height: 100%; /*height 105vh to 100%*/
+    height: 100vh; /*height 105vh to 100%*/
     overflow: hidden; 
     position: relative;
     background-color: #17232A;
     background-image: radial-gradient(#fff3, transparent 50%);
-    margin-top: -50px;
+    margin-top: 0px;
     display: flex;
     margin-bottom: 20px;
     justify-content: center; /*center the slider horizontally*/
@@ -113,6 +113,20 @@ header nav ul{
     font-size: 1rem;
     
 }
+
+.slider .content button:hover{
+    border: 1px solid #eee5;
+    background-color: #eee;
+    color: #17232A;
+    font-family: Poppins;
+    letter-spacing: 5px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: 1s ease;
+    
+}
+
 #prev,
 #next{
     position: absolute;
@@ -129,6 +143,12 @@ header nav ul{
     font-family: monospace;
     cursor: pointer;
     z-index: 15;
+}
+#prev:hover,
+#next:hover{
+    color:#17232A;
+    background-color: #eee;
+    transition: .6s ease;
 }
 #prev{
     left: 20px;
