@@ -1,4 +1,4 @@
-![Home Products](https://github.com/user-attachments/assets/8bb9a883-8e72-4120-8d67-9ea99057f990)# Butchery
+# Butchery
 This is a butchery website I developed for a client late last year (2024). I only used HTML, CSS, and JavaScript to make it as easy, and  good looking as possible. 
 
 The following images are a demo of what the site looks like: 
