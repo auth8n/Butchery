@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'merriweather',serif;
+}
+.all-content{
+    background: #8aadad;
+}
+html ::-webkit-scrollbar-track{
+    background: transparent;
+}
+html ::-webkit-scrollbar-thumb{
+    background: #87daf3;
+    border-radius: 10px;
+}
+html ::-webkit-scrollbar{
+    width: 10px;
+}
+
+
+#navbar{
+    background-color: #010610;
+}
+#logo img{
+    border-radius: 10px;
+    width: 110px;
+    margin-left: 20px;
+}
+.navbar-nav{
+    margin-left: 50px;
+}
+.nav-item .nav-link{
+    color: white;
+}
